@@ -9,7 +9,7 @@
     - Trailer in Backgroun
     - Title & Description
     - Movie Suggestions
-      - Movie Lists \* N
+      - Movie Lists * N
 - NetflixGPT
   - Search Bar
   - Movie Suggestion
