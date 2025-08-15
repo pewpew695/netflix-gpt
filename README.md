@@ -9,7 +9,7 @@
     - Trailer in Backgroun
     - Title & Description
     - Movie Suggestions
-      - Movie Lists * N
+      - Movie Lists \* N
 - NetflixGPT
   - Search Bar
   - Movie Suggestion
@@ -18,3 +18,5 @@
 
 - Created project using Vite Framework
 - Imported Tailwind CSS into our project
+- Build Login Form
+- Build Sign Up Form
