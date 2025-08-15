@@ -24,3 +24,10 @@
 - Build Sign Up Form
 - Form Validation
 - useRef Hook
+- Firebase Setup
+- Deploying our App to production
+- Create SignUp user Account
+- Implement SignIn/SignUp API
+- Created Redux Store with userSlice
+- Implemented Sign Out
+- Update Profile
