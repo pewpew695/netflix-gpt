@@ -18,5 +18,9 @@
 
 - Created project using Vite Framework
 - Imported Tailwind CSS into our project
+- Header
+- Routing of App
 - Build Login Form
 - Build Sign Up Form
+- Form Validation
+- useRef Hook
