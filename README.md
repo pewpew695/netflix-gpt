@@ -31,3 +31,9 @@
 - Created Redux Store with userSlice
 - Implemented Sign Out
 - Update Profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: If the user is not logged in Redirect /browse to Login Page & vice-versa
+- Unsubscribed to the onAuthStateChanged callback
+- Moved Hardcoded values to constants file
+- Register to TMDB API to get access token
+- Get Data from TMDB API using fetch
