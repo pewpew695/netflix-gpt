@@ -37,3 +37,11 @@
 - Moved Hardcoded values to constants file
 - Register to TMDB API to get access token
 - Get Data from TMDB API using fetch
+- Custom Hook for now Playing Movies
+- Create Movie Slice
+- Update store with movies Data
+- Planning for MainContainer & SecondaryContainer
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embeded the youtube video and make it autoplay and mute
+- Tailwind Classes to beautify MainContainer

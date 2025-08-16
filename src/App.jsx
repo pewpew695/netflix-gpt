@@ -3,11 +3,13 @@ import { Provider } from "react-redux";
 import appStore from "./utils/appStore";
 
 const App = () => {
-  return <div style={{ color: "red", fontSize: "48px" }}>Hello World!</div>;
+  return (
+    <div>
+      <Provider store={appStore}>
+        <Body />
+      </Provider>
+    </div>
+  );
 };
 
 export default App;
- // <Provider store={appStore}>
-    //   <h1>Hello</h1>
-    //   <Body />
-    // </Provider>
