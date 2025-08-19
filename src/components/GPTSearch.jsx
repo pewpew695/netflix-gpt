@@ -6,15 +6,19 @@ import { useSelector } from "react-redux";
 
 const GPTSearch = () => {
   return (
-    <div>
-      <img
-        className="absolute -z-20"
-        src={BG_URL}
-        alt="Background Image with many Netflix Show/Movies"
-      ></img>
-      <GPTSearchBar />
-      <GPTMovieSuggestions />
-    </div>
+    <>
+      <div className="">
+        <img
+          className="fixed -z-20 h-screen md:h-auto object-cover"
+          src={BG_URL}
+          alt="Background Image with many Netflix Show/Movies"
+        ></img>
+      </div>
+      <div className="">
+        <GPTSearchBar />
+        <GPTMovieSuggestions />
+      </div>
+    </>
   );
 };
 

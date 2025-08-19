@@ -6,7 +6,7 @@ import { getRandomNumber } from "../utils/getRandomNumber";
 
 const useMovieTrailer = (movieId) => {
   const dispatch = useDispatch();
-
+  const movies = useSelector((store) => store.movies);
   const getMovieVideos = async () => {
     const data = await fetch(
       "https://api.themoviedb.org/3/movie/" +
@@ -31,7 +31,7 @@ const useMovieTrailer = (movieId) => {
     dispatch(addTrailerVideo(trailer));
   };
   useEffect(() => {
-    getMovieVideos();
+    !movies.addTrailerVideo && getMovieVideos();
   }, []);
 };
 

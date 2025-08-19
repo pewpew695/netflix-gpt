@@ -54,3 +54,11 @@
 - GPT Search Page
 - GPT Search Bar
 - (Bonus) Multi-language Feature in our App
+- Get Open AI API Key
+- GPT Search API call
+- Made API calls to TMDB for movie data
+- Created GPTSlice added data
+- Reused Movie list component to make movie suggestion container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
