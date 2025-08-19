@@ -45,3 +45,4 @@
 - Update Store with Trailer Video Data
 - Embeded the youtube video and make it autoplay and mute
 - Tailwind Classes to beautify MainContainer
+- Build SecondaryContainer
